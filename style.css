@@ -1,26 +1,43 @@
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 .jumbotron{
 	height: 100%
 	width:100%;
 	text-align: center;
-	background-image: url("https://static.pexels.com/photos/4827/nature-forest-trees-fog.jpeg");
-	height:1000px;
+	background: url('images/stillpic.jpg');
+	height:1100px;
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 0px;
   border-bottom: 0px;
   padding-top: 80px;
+  margin: 0px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
 }
 
-.display-1{
-	color: #333333;
+.display-4 {
+	
+	text-align: center;
+	color: blue;
 }
 
 .btn {
 	margin: 10px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Arvo', serif;
 	font-size: 20px;
 	color: #333;
 	
@@ -31,8 +48,9 @@
 }
 
 h1	{ 
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Arvo', serif;
 	color: #333333;
+	text-align: center;
 	
 
 
@@ -75,23 +93,30 @@ a {
 }
 
 body	{
-	 background: #333333;
+	 background: #000;
+	 margin: 0px;
 }
 
 .smalls	{
 	
 	color: #B1811A;
 }
-/*
+
+/*iphone 6 media query*/
+
 
 @media screen and (max-width: 500px) {
 	.display-4 { 
 		
-		font-size: 55px;
+		font-size: 50px;
+		text-align: center;
+	
+
 
 	}
 	h1 .smalls {
-		font-size: 60px;
+		font-size: 50px;
+		text-align: center;
 	}
 	#verseDisplay {
 	
@@ -103,67 +128,93 @@ body	{
 		font-size: 18px;
 	}
 
+	.btn {
+	padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 10px;
+	}
+
+
+#verseDisplay {
+	color: ##333333;
+	font-size: 30px;
+	background-color: #fff;
+	line-height: 29px;
+	transition-delay: .3;
+	opacity: 0.7;
+	font-family: 'Roboto', sans-serif;
+	width: 75%;
+	display: block;
+	margin: 0 auto;
 
 }
 
-@media screen and (max-width: 420px) {
+
+
+
+}
+
+
+
+@media screen and (max-width: 500px) {
 	.display-4 { 
-		color: #333333;
-		font-size: 50px;
+		font-size: 45px;
+		text-align: center;
+		
 
 	}
 	h1 .smalls {
-		font-size: 50px;
+		font-size: 45px;
+		text-align: center;
 	}
 	#verseDisplay {
-	font-size: 20px;
-	line-height: 21px;
-	width: 60%;
-	display: block;
-	margin: 0 auto;
-	}
-	p {
-		font-size: 14px;
-	}
+	
+	font-size: 25px;
 
-
-}
-
-/**/
-
-@media screen and (max-width: 600px;){
-	.display-4 {
-    font-size: 6.5em;
-    font-weight: 300;
-    line-height: 1.1;
-}
-	h1 .smalls {
-		font-size: 50px;
-	}
-	#verseDisplay {
-	font-size: 3em;
-	line-height: 36px;
-	width: 60%;
-	display: block;
-	margin: 0 auto;
+	line-height: 26px;
 	}
 	p {
 		font-size: 14px;
 	}
 
 	.btn {
-    margin: 15px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 60px;
-    color: #333;
-    background: #F5F5DC;
+	padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 10px;
+	}
 
+	h1	{ 
+	font-family: 'Arvo', serif;
+	color: #333333;
+	text-align: center;
+	font-size: 45px;
+	
 
 
 	}
 
+	.jumbotron {
+	height: 100%
+	width:100%;
+	text-align: center;
+	background: url('images/stillpic.jpg');
+	height:1100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0px;
+  border-bottom: 0px;
+  padding-top: 80px;
+  margin: 0px;
+   background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+	
 
 }
+
+
 
 
 
